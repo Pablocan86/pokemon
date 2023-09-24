@@ -1,0 +1,143 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.212)),
+    url("./images/fondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.charmander {
+  background-image: url("./images/charmander.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.charmelion {
+  background-image: url("./images/Charmelion.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.charizard {
+  background-image: url("./images/charizard.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.h3Evolucion {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: 0px 0px 10px black;
+  color: yellow;
+  text-align: center;
+}
+
+.evolucion {
+  text-shadow: 0px 0px 10px yellow;
+  color: black;
+  text-align: center;
+}
+
+.datosEvolucion {
+  background-color: black;
+  border-radius: 5px;
+  color: yellow;
+  padding: 5px;
+}
+.btnsDiv {
+  width: 200px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botones {
+  background-color: yellow;
+  border: none;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.divEstado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.estado {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  margin: 200px;
+  box-shadow: 0px 0px 20px yellow;
+}
+
+.ocultarDivEstado {
+  display: none;
+}
+#btnCerrar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-right: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#pCerrar {
+  background-color: yellow;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#estado h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#estado p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#estado p span {
+  color: yellow;
+}
